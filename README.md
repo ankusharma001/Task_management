@@ -19,6 +19,26 @@
 
 ---
 
+
+
+
+#Installation
+Clone Repository
+git clone <repository-url>
+cd project
+##Frontend Setup
+cd frontend
+npm install
+npm run dev
+##Backend Setup
+cd backend
+npm install
+npm start
+Environment Variables
+PORT=5000
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+
 # Project Structure
 
 ```bash
@@ -38,22 +58,7 @@ project/
 │
 └── README.md
 
-Installation
-Clone Repository
-git clone <repository-url>
-cd project
-Frontend Setup
-cd frontend
-npm install
-npm run dev
-Backend Setup
-cd backend
-npm install
-npm start
-Environment Variables
 
-Create a .env file inside the backend folder:
 
-PORT=5000
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
