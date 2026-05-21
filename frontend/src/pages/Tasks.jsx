@@ -93,7 +93,7 @@ const Tasks = () => {
     switch (p) {
       case 'Urgent': return 'text-rose-700 bg-rose-50 border-rose-100';
       case 'High': return 'text-amber-700 bg-amber-50 border-amber-100';
-      case 'Medium': return 'text-blue-700 bg-blue-50 border-blue-100';
+      case 'Medium': return 'text-slate-655 bg-slate-50 border-slate-200';
       default: return 'text-slate-600 bg-slate-50 border-slate-200';
     }
   };
